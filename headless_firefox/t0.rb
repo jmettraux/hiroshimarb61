@@ -20,6 +20,8 @@ input.send_keys('hiroshima.rb')
 sleep 1
 input.send_keys("\n")
 
+sleep 2
+
 driver
   .find_elements(:css, 'div.g h3 a')
   .each { |a| puts a.attribute('href') }
