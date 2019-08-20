@@ -9,16 +9,19 @@ GEM
       archive-zip (~> 0.7.0)
       nokogiri (~> 1.6)
     ffi (1.9.18)
+    ffi (1.9.18-java)
     io-like (0.3.0)
-    mini_portile2 (2.3.0)
-    nokogiri (1.8.1)
-      mini_portile2 (~> 2.3.0)
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.4)
+      mini_portile2 (~> 2.4.0)
+    nokogiri (1.10.4-java)
     rubyzip (1.2.1)
     selenium-webdriver (3.8.0)
       childprocess (~> 0.5)
       rubyzip (~> 1.0)
 
 PLATFORMS
+  java
   ruby
 
 DEPENDENCIES
@@ -26,4 +29,4 @@ DEPENDENCIES
   selenium-webdriver
 
 BUNDLED WITH
-   1.15.4
+   1.17.3

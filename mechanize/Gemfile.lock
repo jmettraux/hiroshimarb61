@@ -17,22 +17,25 @@ GEM
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
-    mini_portile2 (2.3.0)
+    mini_portile2 (2.4.0)
     net-http-digest_auth (1.4.1)
     net-http-persistent (2.9.4)
-    nokogiri (1.8.1)
-      mini_portile2 (~> 2.3.0)
+    nokogiri (1.10.4)
+      mini_portile2 (~> 2.4.0)
+    nokogiri (1.10.4-java)
     ntlm-http (0.1.1)
     unf (0.1.4)
       unf_ext
+    unf (0.1.4-java)
     unf_ext (0.0.7.4)
     webrobots (0.1.2)
 
 PLATFORMS
+  java
   ruby
 
 DEPENDENCIES
   mechanize
 
 BUNDLED WITH
-   1.15.4
+   1.17.3
